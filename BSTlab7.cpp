@@ -154,12 +154,12 @@ int main(){
 	t1.display();
 	cout <<endl;
 	cout <<endl;
-//	cout << t1.search(4)->data <<endl;
-//	cout << t1.search(1)->data<<endl;
-//	t1.Fdisplay();
-//	cout << t1.MinPtr(t1.root->right)->data <<endl;
-//	t1.delet(5);
-//	t1.replceData(t1.root, t1.root->left);
+	cout << t1.search(4)->data <<endl;
+	cout << t1.search(1)->data<<endl;
+	t1.Fdisplay();
+	cout << t1.MinPtr(t1.root->right)->data <<endl;
+	t1.delet(5);
+	t1.replceData(t1.root, t1.root->left);
 	t1.display();
 	cout << t1.count(t1.root);
 }
